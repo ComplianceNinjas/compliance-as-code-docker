@@ -1,0 +1,6 @@
+[submodule "loader"]
+	path = loader
+	url = https://github.com/ComplianceNinjas/compliance-as-code-loader
+[submodule "content"]
+	path = content
+	url = https://github.com/ComplianceAsCode/content

@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  openscap:
+    build: .
+    image: compliance_openscap:1.00
+    hostname: openscap
+    volumes:
+      - ./content:/content
+    restart: always
+    stdin_open: true
+    tty: true
