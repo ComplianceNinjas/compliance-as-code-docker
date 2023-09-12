@@ -7,6 +7,7 @@ services:
     hostname: openscap
     volumes:
       - ./content:/content
+      - ./loader:/loader
     restart: always
     stdin_open: true
     tty: true

@@ -26,8 +26,15 @@ You will need to have Docker and Docker Compose installed on your system.
 
 1. Navigate to the project's root directory in your terminal.
 
-2. Run the following command to start the Docker containers defined in the `docker-compose.yml` file:
+2. Run the following command to start the Docker container defined in the `docker-compose.yml` file:
 
 ```bash
-...
+docker compose up -d
+docker attach $(docker compose ps -q)
+```
+
+3. Run the following command to stop the Docker container
+
+```bash
+docker compose down 
 ```
