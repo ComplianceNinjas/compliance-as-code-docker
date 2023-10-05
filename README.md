@@ -26,12 +26,6 @@ docker compose up -d
 docker attach $(docker compose ps -q)
 ```
 
-6. Run the following command to stop the Docker container
-
-```bash
-docker compose down 
-```
-
 Once you are done working, run the following command to stop the Docker container:
 
 ```bash
